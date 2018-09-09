@@ -43,7 +43,7 @@ TODO
 TODO
 ```
 
-== Ruby Basics
+== Ruby Basics - Section 1
 ```
 TODO
 ```
@@ -51,4 +51,12 @@ TODO
 [TIP]
 Short Break
 
-link:https://github.com/budhram/rubytraining/tree/section2[Click here to Go to Next Section]
+== Ruby Basics - Section 2
+```
+TODO
+```
+
+[TIP]
+Short Break
+
+link:https://github.com/budhram/rubytraining/tree/section3[Click here to Go to Next Section]
