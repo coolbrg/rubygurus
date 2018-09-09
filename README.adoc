@@ -1,0 +1,54 @@
+= Workshop on Ruby Fundamentals
+
+// Settings:
+:idprefix:
+:idseparator: -
+ifndef::env-github[]
+:icons: font
+endif::[]
+ifdef::env-github,env-browser[]
+:toc: preamble
+:toclevels: 5
+endif::[]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:!toc-title:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+Brought to you by link:https://twitter.com/budhrg[Budh Ram Gurung] & link:http://akanksha007.github.io/[Akanksha Agarwal].
+
+== Overview
+```
+TODO
+```
+
+== Prerequisites
+```
+TODO
+```
+
+== Preparation
+```
+TODO
+```
+
+== Flow of Workshop
+```
+TODO
+```
+
+== Ruby Basics
+```
+TODO
+```
+
+[TIP]
+Short Break
+
+link:https://github.com/budhram/rubytraining/tree/section2[Click here to Go to Next Section]
