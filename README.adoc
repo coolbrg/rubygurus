@@ -78,9 +78,17 @@ Short Break
 Short Break
 
 == Ruby Basics - Section 3 (Final)
-```
-TODO
-```
+
+* Read/Write Files
+* Regular Expressions
+* Access Control
+* Write your own Class
+* Ruby Procs
+* Including other files
+* Inheritance
+* Duck Typing
+* Exceptions
+* Module / Mixins
 
 [TIP]
 End of Session. Thanks.
