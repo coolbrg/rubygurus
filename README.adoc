@@ -24,29 +24,41 @@ endif::[]
 Brought to you by link:https://twitter.com/budhrg[Budh Ram Gurung] & link:http://akanksha007.github.io/[Akanksha Agarwal].
 
 == Overview
-```
-TODO
-```
+
+link:https://en.wikipedia.org/wiki/Ruby_(programming_language)[Ruby] is one of the nicest language I come across in my career(may differ in opinion but it's mine).
+
+Reason is very simple,
+
+TIP: Matz is nice and so we are nice (MINASWAN).
+
+Find more details about above quote link:http://blog.steveklabnik.com/posts/2011-08-19-matz-is-nice-so-we-are-nice[here].
 
 == Prerequisites
-```
-TODO
-```
+
+- Programming language (See a link:https://www.edx.org/course/programming-basics[nice course on Edx.org])
+- C Language knowledge concepts
 
 == Preparation
-```
-TODO
-```
+
+- link:https://www.ruby-lang.org/en/documentation/installation/[Install Ruby]
+- Check link:https://www.tutorialspoint.com/ruby/interactive_ruby.htm[irb (interactive Ruby)]
+- Get ready with good editor like Vim, Sublime or your favourite one.
 
 == Flow of Workshop
-```
-TODO
-```
+
+- First Theory (moderate time), then
+- Practice programs based on theory
 
 == Ruby Basics
-```
-TODO
-```
+
+- What is Ruby
+- History of Ruby
+- Ruby Features
+- Hello World
+- Numbers, Constants, Strings, Variables
+- Naming conventions
+- Scope
+
 
 [TIP]
 Short Break
