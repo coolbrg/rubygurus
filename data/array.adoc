@@ -1,5 +1,4 @@
-= Ruby Arrays
-
+= Array
 :toc: macro
 :toclevels: 2
 
@@ -22,7 +21,7 @@ Every slot in the list acts like a variable: you can see what object a particula
 - Mutable and are dynamically resizable, append elements to them and they grow as needed
 
 [[ruby-array-code-snippets]]
-=== Example code snippets
+=== Code snippets
 
 - Array with similar object
 ```ruby

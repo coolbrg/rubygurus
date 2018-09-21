@@ -1,26 +1,8 @@
-= Ruby Blocks
-:toc:
+= Block
+:toc: macro
+:toclevels: 2
 
-// Settings:
-:idprefix:
-:idseparator: -
-ifndef::env-github[]
-:icons: font
-endif::[]
-ifdef::env-github,env-browser[]
-:toc: preamble
-:toclevels: 5
-endif::[]
-ifdef::env-github[]
-:status:
-:outfilesuffix: .adoc
-:!toc-title:
-:caution-caption: :fire:
-:important-caption: :exclamation:
-:note-caption: :paperclip:
-:tip-caption: :bulb:
-:warning-caption: :warning:
-endif::[]
+toc::[]
 
 === Overview
 
@@ -36,7 +18,7 @@ If the method invocation has parameters that are not enclosed in parentheses, th
 [quote, Matz]
 Any method can be called with a block as an implicit argument. Inside the method, you can call the block using the yield keyword with a value."
 
-=== Examples
+=== Code snippets
 
 - Invoke block using `yield`
 ```ruby

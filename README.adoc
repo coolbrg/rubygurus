@@ -65,8 +65,7 @@ Find more details about above quote link:http://blog.steveklabnik.com/posts/2011
 - Naming conventions
 - Scope
 
-[TIP]
-Short Break
+NOTE: Short Break
 
 == Ruby Basics - Section 2
 
@@ -74,14 +73,12 @@ Short Break
 * Ruby Methods
     ** Method ending with !
     ** Method ending with ?
-* xref:data/ruby-blocks.adoc#[Ruby Blocks]
-* xref:data/ruby-arrays.adoc#[Ruby Arrays]
-* Ranges
+* link:data/block.adoc#[Block]
+* link:data/array.adoc#[Array]
 * Symbols
 * Hashes
 
-[TIP]
-Short Break
+NOTE: Short Break
 
 == Ruby Basics - Section 3
 
@@ -96,5 +93,4 @@ Short Break
 * Exceptions
 * Module / Mixins
 
-[TIP]
-End of Session. Thanks.
+NOTE: End of Session. Thanks.
