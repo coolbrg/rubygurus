@@ -1,6 +1,8 @@
 = Block
 :toc: macro
 :toclevels: 2
+:next-topic: Proceed to link:array.adoc#[Array]
+:topic-table: Go to link:../README.adoc#[Table of Content]
 
 toc::[]
 
@@ -80,3 +82,11 @@ puts "x outside the block: #{x}" // <3>
 <1> This is outer 'x' as it is before block on next line
 <2> This 'x' is inside block and different than outer 'x'
 <3> Outer 'x'
+
+=== Next Topic
+
+{next-topic}
+
+=== Table of Content
+
+{topic-table}

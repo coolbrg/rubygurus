@@ -1,6 +1,9 @@
 = Array
 :toc: macro
 :toclevels: 2
+:next-topic: Proceed to link:range.adoc#[Range]
+:previous-topic: Go back to link:block.adoc#[Block]
+:topic-table: Go to link:../README.adoc#[Table of Content]
 
 toc::[]
 
@@ -94,3 +97,15 @@ locations.each do |loc|
   puts "Don't you?"
 end
 ```
+
+=== Next Topic
+
+{next-topic}
+
+=== Previous Topic
+
+{previous-topic}
+
+=== Table of Content
+
+{topic-table}
