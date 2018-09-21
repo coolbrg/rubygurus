@@ -75,7 +75,7 @@ Short Break
     ** Method ending with !
     ** Method ending with ?
 * xref:data/ruby-blocks.adoc#[Ruby Blocks]
-* Ruby Arrays
+* xref:data/ruby-arrays.adoc#[Ruby Arrays]
 * Ranges
 * Symbols
 * Hashes
