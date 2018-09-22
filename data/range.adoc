@@ -1,0 +1,57 @@
+= Range
+:toc: macro
+:toclevels: 2
+:next-topic: Proceed to link:symbol.adoc#[Symbol]
+:previous-topic: Go back to link:array.adoc#[Array]
+:topic-table: Go to link:../README.adoc#[Table of Content]
+
+toc::[]
+
+=== Overview
+
+Range is used to express a sequence.
+Sequences have a start point, an end point, and a way to produce successive values in the sequence.
+In Ruby, these sequences are created using the `..` and `...` range operators.
+The two dot form creates an inclusive range, and the three-dot form creates a range that excludes the specified high value.
+In Ruby, Ranges are not represented internally as lists i.e the sequence `1..100000` is held as a Range object containing references to two Fixnum objects.
+If you need to, you can convert a range to a list using the `to_a` method.
+
+```ruby
+(1..10).to_a -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+```
+
+=== Usage
+
+Ranges implement methods that let you iterate over them and test their contents in a variety of ways.
+
+```ruby
+digits = -1..9
+puts digits.include?(5)          # true
+puts digits.min                  # -1
+puts digits.max                  # 9
+puts digits.reject {|i| i < 5 }  # [5, 6, 7, 8, 9]
+```
+
+Range is also widely used as an interval test i.e seeing if some value falls within the interval represented by the Range.
+We do this using `===` (the case equality operator).
+
+```ruby
+(1..10) === 5       -> true
+(1..10) === 15      -> false
+(1..10) === 3.14159 -> true
+('a'..'j') === 'c'  -> true
+('a'..'j') === 'z'  -> false
+```
+
+
+=== Next Topic
+
+{next-topic}
+
+=== Previous Topic
+
+{previous-topic}
+
+=== Table of Content
+
+{topic-table}

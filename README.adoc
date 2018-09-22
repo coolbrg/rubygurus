@@ -75,6 +75,7 @@ NOTE: Short Break
     ** Method ending with ?
 * link:data/block.adoc#[Block]
 * link:data/array.adoc#[Array]
+* link:data/range.adoc#[Range]
 * Symbols
 * Hashes
 
