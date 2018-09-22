@@ -20,7 +20,7 @@ If the method invocation has parameters that are not enclosed in parentheses, th
 [quote, Matz]
 Any method can be called with a block as an implicit argument. Inside the method, you can call the block using the yield keyword with a value."
 
-=== Code snippets
+=== Try yourself
 
 - Invoke block using `yield`
 ```ruby
