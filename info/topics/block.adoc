@@ -2,7 +2,7 @@
 :toc: macro
 :toclevels: 2
 :next-topic: Proceed to link:array.adoc#[Array]
-:topic-table: Go to link:../README.adoc#[Table of Content]
+:topic-table: Go to link:../../README.adoc#[Table of Content]
 
 toc::[]
 
@@ -35,7 +35,6 @@ end
 
 - Invoke block using `yield`
 ```ruby
-# Code blocks may appear only in the source adjacent to a method call
 call_block { puts 'In the block' }
 # don't pass block to method
 
@@ -45,12 +44,10 @@ rescue
 end
 ```
 
-- Inspect block
+- Inspect block using `block_given?`
 ```ruby
-# block_given? returns true if yield would
-# execute a block in the current context
 def try
-  if block_given?
+  if block_given?           // <1>
     yield
   else
     puts 'no block'
@@ -59,6 +56,9 @@ end
 try # => "no block"
 try { puts 'hello' } # => "hello"
 ```
+<1> returns `true` if `yield` would able to execute block in current context
+
+<<<
 
 - Block variables
 ```ruby
@@ -70,7 +70,7 @@ end
 puts "x outside the block: #{x}"
 ```
 
-- Understand the code
+- Understanding outer and inner block variables
 ```ruby
 x = 10 // <1>
 5.times do |y|

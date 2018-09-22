@@ -3,7 +3,7 @@
 :toclevels: 2
 :next-topic: Proceed to link:symbol.adoc#[Symbol]
 :previous-topic: Go back to link:array.adoc#[Array]
-:topic-table: Go to link:../README.adoc#[Table of Content]
+:topic-table: Go to link:../../README.adoc#[Table of Content]
 
 toc::[]
 

@@ -1,7 +1,7 @@
 = TODO
 :toc: macro
 :toclevels: 2
-:topic-table: Go to link:../README.adoc#[Table of Content]
+:topic-table: Go to link:../../README.adoc#[Table of Content]
 
 toc::[]
 

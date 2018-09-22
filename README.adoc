@@ -73,11 +73,11 @@ NOTE: Short Break
 * Ruby Methods
     ** Method ending with !
     ** Method ending with ?
-* link:data/block.adoc#[Block]
-* link:data/array.adoc#[Array]
-* link:data/range.adoc#[Range]
-* link:data/symbol.adoc#[Symbol]
-* link:data/hash.adoc#[Hash]
+* link:info/topics/block.adoc#[Block]
+* link:info/topics/array.adoc#[Array]
+* link:info/topics/range.adoc#[Range]
+* link:info/topics/symbol.adoc#[Symbol]
+* link:info/topics/hash.adoc#[Hash]
 
 NOTE: Short Break
 

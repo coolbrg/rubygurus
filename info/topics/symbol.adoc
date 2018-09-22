@@ -3,7 +3,7 @@
 :toclevels: 2
 :next-topic: Proceed to link:hash.adoc#[Hash]
 :previous-topic: Go back to link:range.adoc#[Range]
-:topic-table: Go to link:../README.adoc#[Table of Content]
+:topic-table: Go to link:../../README.adoc#[Table of Content]
 
 toc::[]
 
