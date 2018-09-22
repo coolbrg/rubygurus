@@ -1,0 +1,38 @@
+= Get start with Interactive Ruby (irb)
+:toc:
+:toclevels: 2
+:previous-topic: Go back to link:install-ruby.adoc#[Install Ruby]
+:topic-table: Go to link:../../README.adoc#[Table of Content]
+
+=== Overview
+
+Interactive Ruby Shell (`IRB` or `irb`) is a REPL for programming in the object-oriented scripting language Ruby.
+The abbreviation `irb` comes from the fact that the filename extension for Ruby is `.rb`, although interactive Ruby files do not have an extension of `.irb`.
+
+The program is launched from a command line and allows the execution of Ruby commands with immediate response, experimenting in real-time.
+It features command history, line editing capabilities, and job control, and is able to communicate directly as a shell script over the Internet and interact with a live server.
+
+NOTE: `irb` was developed by Keiju Ishitsuka.
+
+=== Try yourself
+
+In your terminal or shell, just type following
+```shell
+irb
+```
+
+Then, start playing with Ruby lines as
+```shell
+puts "Hello World"
+puts 120
+puts 15/2
+puts 15.0/2
+```
+
+=== Previous Topic
+
+{previous-topic}
+
+=== Table of Content
+
+{topic-table}

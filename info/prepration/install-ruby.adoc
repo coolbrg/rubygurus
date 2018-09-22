@@ -1,0 +1,112 @@
+= Install Ruby
+:toc:
+:toclevels: 4
+:next-topic: Proceed to link:irb.adoc#[irb]
+:topic-table: Go to link:../../README.adoc#[Table of Content]
+
+=== Overview
+
+You can use several tools to install Ruby. This page describes how to install Ruby in Linux, macOS or Windows.
+
+=== Install via RVM
+
+RVM supports most UNIX like systems and Windows (with Cygwin or Bash on Ubuntu on Windows).
+The basic requirements are `bash`, `curl`, `gpg2` and overall GNU version of tools - but RVM tries to autodetect it and install anything that is needed.
+
+===== Install GPG keys
+
+As a first step install mpapis public key used to verify installation package to ensure security.
+
+```shell
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+```
+
+===== Basic Install
+
+```shell
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+```
+
+For more information, proceed to link:https://rvm.io/rvm/install[RVM website].
+
+==== Install via rbenv
+
+____
+Groom your app’s Ruby environment.
+____
+
+Use `rbenv` to pick a Ruby version for your application and guarantee that your development environment matches production.
+Put rbenv to work with Bundler for painless Ruby upgrades and bulletproof deployments.
+
+WARNING: `rbenv` is incompatible with RVM. Please make sure to fully uninstall RVM and remove any references to it from your shell initialization files before installing it.
+
+NOTE: Following instrcutions shows how to install Ruby via `rbenv` in Ubuntu 16.04. Check your own preferences link:https://github.com/rbenv/rbenv#installation[here].
+
+===== Update and install dependencies
+
+```shell
+sudo apt-get update
+```
+
+Install the dependencies required for rbenv and Ruby with `apt-get`:
+
+```shell
+sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
+```
+
+=== Install rbenv
+
+- Clone the `rbenv` repository from git.
+```shell
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+```
+
+- Add `~/.rbenv/bin` to your `$PATH` and other required steps
+```shell
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+===== Install Ruby
+
+- List the available versions
+```shell
+rbenv install -l
+```
+
+- Install specific version
+```shell
+rbenv install 2.5.0
+```
+
+=== ruby-install
+
+Installs `Ruby`, `JRuby`, `Rubinius`, `TruffleRuby` or `mruby`.
+
+===== Features
+
+Following are few features `ruby-install` come with::
+
+- Supports installing arbitrary versions.
+- Supports downloading the latest versions and checksums from ruby-versions.
+- Supports installing into arbitrary directories.
+- Supports downloading from arbitrary URLs.
+- Supports downloading from mirrors.
+- Supports downloading/applying patches.
+- Supports installing build dependencies via the package manager:
+  - apt
+  - dnf
+  - yum
+  - brew
+  - ...
+
+For more information, proceed to link:https://github.com/postmodern/ruby-install#readme[ruby-install README].
+
+=== Next Topic
+
+{next-topic}
+
+=== Table of Content
+
+{topic-table}

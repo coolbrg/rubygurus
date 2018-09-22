@@ -46,9 +46,9 @@ Find more details about above quote link:http://blog.steveklabnik.com/posts/2011
 
 == Preparation
 
-- link:https://www.ruby-lang.org/en/documentation/installation/[Install Ruby]
-- Check link:https://www.tutorialspoint.com/ruby/interactive_ruby.htm[irb (interactive Ruby)]
-- Get ready with good editor like Vim, Sublime or your favourite one.
+- link:info/preparation/install-ruby.adoc#[Install Ruby]
+- link:info/preparation/irb.adoc#[Get start with Interactive Ruby]
+- Get ready with good editor like Vim, Sublime or else.
 
 == Flow of Workshop
 
