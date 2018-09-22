@@ -1,0 +1,55 @@
+= Symbol
+:toc: macro
+:toclevels: 2
+:next-topic: Proceed to link:hash.adoc#[Hash]
+:previous-topic: Go back to link:range.adoc#[Range]
+:topic-table: Go to link:../README.adoc#[Table of Content]
+
+toc::[]
+
+=== Overview
+
+A **Symbol** looks like a variable name but it's prefixed with a colon(`:`).
+
+```ruby
+:abc
+:abc.class                      # Symbol
+:abc.object_id                  # 1282588 (some no)
+:abc.object_id                  # 1282588 (same as above)
+```
+
+You don't have to pre-declare a symbol and they are guaranteed to be unique.
+
+TIP: Symbol is unique object and two symbols are equal if their object ids are equal.
+
+There's no need to assign some kind of value to a symbol as Ruby takes care of that for you.
+Ruby also guarantees that no matter where it appears in your program, a particular symbol will have the same value.
+
+[NOTE]
+A Symbol is the most basic Ruby object you can create. It's just a name and an internal ID.
+Symbols are useful because a given symbol name refers to the same object throughout a Ruby program.
+Symbols are more efficient than strings. Two strings with the same contents are two different objects, but for any given name there is only one Symbol object.
+This can save both time and memory.
+
+=== Try yourself
+
+```ruby
+puts "string".object_id
+puts "string".object_id
+puts :symbol.object_id
+puts :symbol.object_id
+```
+
+TIP: If the contents (the sequence of characters) of the object are important, use a string and if the identity of the object is important, use a symbol.
+
+=== Next Topic
+
+{next-topic}
+
+=== Previous Topic
+
+{previous-topic}
+
+=== Table of Content
+
+{topic-table}
