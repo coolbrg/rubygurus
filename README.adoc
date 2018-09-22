@@ -46,8 +46,8 @@ Find more details about above quote link:http://blog.steveklabnik.com/posts/2011
 
 == Preparation
 
-- link:info/preparation/install-ruby.adoc#[Install Ruby]
-- link:info/preparation/irb.adoc#[Get start with Interactive Ruby]
+- xref:info/preparation/install-ruby.adoc#[Install Ruby]
+- xref:info/preparation/irb.adoc#[Get start with Interactive Ruby]
 - Get ready with good editor like Vim, Sublime or else.
 
 == Flow of Workshop
