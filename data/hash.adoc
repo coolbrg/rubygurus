@@ -1,0 +1,58 @@
+= Topic Name
+:toc: macro
+:toclevels: 2
+:next-topic: Proceed to link:todo.adoc#[TODO]
+:previous-topic: Go back to link:symbol.adoc#[Symbol]
+:topic-table: Go to link:../README.adoc#[Table of Content]
+
+toc::[]
+
+=== Overview
+
+Hash is similar to Array but it is a indexed collection of object references.
+However, while integer is used as an index in Array, Hash's index can be objects of any types like String, Regular Expression and so on.
+When you store a value in a Hash, you are actually supplying two objects - the index (normally called the _key_) and the _value_.
+You can subsequently retrieve the value by using the Hash key(index).
+
+NOTE: The values in a Hash can be objects of any type. Hash default value is `nil` when an attempt is made to access key that doesn't exist.
+
+=== Try yourself
+
+- Symbol as key
+```ruby
+h1 = { :font_size=> 10, :font_family => "Arial" }
+puts 'length => ', h1.length
+puts h1[:font_size]
+puts h1
+```
+
+- String as key
+```ruby
+h2 = {'dog'=> 'canine', 'cat' => 'feline', 'donkey' => 'asinine', 12 => 'dodecine'}
+puts 'length => ', h2.length
+puts h2['dog']
+puts h2
+puts h2[12]
+```
+
+- Value update
+```ruby
+h1 = { abc: "foo" }             # {:abc=>"foo"}
+h1[:abc]						# "foo"
+h1[:abc] = "bar"				# "bar"
+h1[:abc]						#> "bar"
+```
+
+WARNING: The **key** in the format `{symbol: value}` can't be numeric. Eg. `{1: 'one'}` will not work but `{1 => 'one'}` will work.
+
+=== Next Topic
+
+{next-topic}
+
+=== Previous Topic
+
+{previous-topic}
+
+=== Table of Content
+
+{topic-table}

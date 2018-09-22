@@ -77,7 +77,7 @@ NOTE: Short Break
 * link:data/array.adoc#[Array]
 * link:data/range.adoc#[Range]
 * link:data/symbol.adoc#[Symbol]
-* Hashes
+* link:data/hash.adoc#[Hash]
 
 NOTE: Short Break
 
