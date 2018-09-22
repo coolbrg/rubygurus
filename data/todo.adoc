@@ -1,0 +1,18 @@
+= TODO
+:toc: macro
+:toclevels: 2
+:topic-table: Go to link:../README.adoc#[Table of Content]
+
+toc::[]
+
+=== Overview
+
+CAUTION: If you are seeing this page it means you are forgetting to write the next topic.
+
+=== Try yourself
+
+Define the next topic.
+
+=== Table of Content
+
+{topic-table}
