@@ -57,22 +57,20 @@ Find more details about above quote link:http://blog.steveklabnik.com/posts/2011
 
 == Ruby Basics - Section 1
 
-- What is Ruby
-- History of Ruby
-- Ruby Features
-- Hello World
-- Numbers, Constants, Strings, Variables
-- Naming conventions
-- Scope
+- link:info/topics/what-is-ruby.adoc#[What is Ruby]
+- link:info/topics/history-of-ruby.adoc#[History of Ruby]
+- link:info/topics/ruby-features.adoc#[Ruby Features]
+- link:info/topics/hello-world.adoc#[Hello World]
+- link:info/topics/num-const-string-var.adoc#[Numbers, Constants, Strings, Variables]
+- link:info/topics/naming-conventions.adoc#[Naming conventions]
+- link:info/topics/scope.adoc#[Scope]
 
 NOTE: Short Break
 
 == Ruby Basics - Section 2
 
-* Getting input from User
-* Ruby Methods
-    ** Method ending with !
-    ** Method ending with ?
+* link:info/topics/get-input-from-user.adoc#[Getting input from User]
+* link:info/topics/ruby-methods.adoc#[Ruby Methods]
 * link:info/topics/block.adoc#[Block]
 * link:info/topics/array.adoc#[Array]
 * link:info/topics/range.adoc#[Range]

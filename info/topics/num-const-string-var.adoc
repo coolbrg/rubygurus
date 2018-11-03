@@ -1,0 +1,24 @@
+= Topic Name
+:toc: macro
+:toclevels: 2
+:next-topic: Proceed to link:todo.adoc#[Todo]
+:previous-topic: Go back to link:todo.adoc#[Todo]
+:topic-table: Go to link:../../README.adoc#[Table of Content]
+
+toc::[]
+
+=== Overview
+
+=== Try yourself
+
+=== Next Topic
+
+{next-topic}
+
+=== Previous Topic
+
+{previous-topic}
+
+=== Table of Content
+
+{topic-table}
